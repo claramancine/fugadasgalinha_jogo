@@ -87,6 +87,8 @@
             text-align: center; 
         }
 
+
+
         .verde {
             background: linear-gradient(to bottom, #2fadd3, #0ed439); 
         }
@@ -115,9 +117,58 @@
             font-size: 20px; 
             text-align: center; 
         }
+
+        .cabecalho{
+            width: 100%;
+            background-color: #ca2f2f;
+            display: flex;
+            padding: 5px;
+            align-items: center;
+            justify-content: space-around; 
+            position: fixed;
+        }
+
+        .linklist{
+           display: flex;
+        }
+        .linklist li{
+            margin: 0px 10px;
+            list-style: none;
+            color: #f5f5dc;
+        }
+        .divImg{
+            height: 40px;
+        }
     </style>
 </head>
 <body>
+    <header class="cabecalho"> 
+        <div>
+        <img src="https://img.icons8.com/?size=100&id=CqmaHcgYOYsF&format=png&color=000000" width="100">
+    </div>
+    <div >
+        <h1>Droper</h1>
+            <ul class="linklist">
+                <li></li> <a href='/marcas'>Marcas</a>
+                <li></li> <a href='/novidades'>Novidades</a>
+                <li></li> <a href='/calendario'>Calendario</a>
+                <li></li> <a href='/feed'>Feed</a>
+            </ul>
+            <input placeholder='Pesquisar'/>
+            <button>Enviar</button>
+        </div>
+      </header>
+
+
+
+
+
+
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
     <div class="circulo"></div>
     <div class="autor">
         <p>Maria Clara Mancine</p>
